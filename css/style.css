@@ -1,0 +1,319 @@
+/* HTML */
+html {
+  scroll-behavior: smooth;
+}
+
+/* BODY */
+body {
+
+  font-family: 'Inter', sans-serif;
+
+  background-color: #1F6F5F;
+
+  color: #EEEEEE;
+
+  line-height: 1.7;
+
+  overflow-x: hidden;
+
+  margin: 0;
+}
+
+/* TITRES */
+h1,
+h2,
+h3,
+h4,
+h5 {
+
+  font-family: 'Poppins', sans-serif;
+
+  font-weight: 700;
+}
+
+/* NAVBAR */
+#main-nav {
+
+  background-color: rgba(31, 111, 95, 0.95);
+
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.navbar-brand {
+
+  color: #EEEEEE;
+
+  font-size: 1.3rem;
+}
+
+.navbar-brand:hover {
+  color: #6FCF97;
+}
+
+.nav-link {
+
+  color: #EEEEEE;
+
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #6FCF97;
+}
+
+/* TOUTES LES SECTIONS */
+section {
+
+  min-height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+
+  padding: 100px 0;
+}
+
+/* Section principale */
+#main {
+
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(111, 207, 151, 0.2),
+      transparent 40%
+    ),
+    #1F6F5F;
+}
+
+#apropos {
+  background-color: #2b7d6b;
+}
+
+#travail {
+  background-color: #185748;
+}
+
+#projets {
+  background-color: #1F6F5F;
+}
+
+.subtitle {
+
+  color: #6FCF97;
+
+  font-weight: 600;
+}
+
+.title {
+
+  font-size: 4rem;
+
+  line-height: 1.1;
+}
+
+.lead {
+
+  color: #EEEEEE;
+
+  max-width: 600px;
+}
+
+/* IMAGE */
+.image {
+
+  max-width: 320px;
+
+  border: 4px solid rgba(255,255,255,0.1);
+
+  transition: 0.3s;
+}
+
+.image:hover {
+  transform: scale(1.03);
+}
+
+/* BOUTONS */
+.btn {
+  transition: 0.3s;
+}
+
+.btn-primary {
+
+  background-color: #2FA084;
+
+  border: none;
+}
+
+.btn-primary:hover {
+
+  background-color: #6FCF97;
+
+  transform: translateY(-2px);
+}
+
+.btn-outline-light:hover {
+  transform: translateY(-2px);
+}
+
+/* TITRES DE SECTION */
+.section-title {
+
+  font-size: 2.5rem;
+
+  margin-bottom: 20px;
+}
+
+.section-text {
+
+  color: #EEEEEE;
+
+  max-width: 700px;
+}
+
+/* SECTION SOMBRE */
+.bg-dark-section {
+  background-color: #185748;
+}
+
+/* CARDS */
+.info-card,
+.project-card,
+.work-card {
+
+  background-color: rgba(255,255,255,0.05);
+
+  border: 1px solid rgba(255,255,255,0.1);
+
+  border-radius: 20px;
+
+  padding: 30px;
+
+  transition: 0.3s;
+}
+
+.info-card:hover,
+.project-card:hover,
+.work-card:hover {
+
+  transform: translateY(-5px);
+}
+
+/* ICONES */
+.feature-icon {
+
+  font-size: 2rem;
+
+  color: #6FCF97;
+
+  margin-bottom: 20px;
+}
+
+/* LISTE */
+.custom-list li {
+
+  margin-bottom: 10px;
+
+  color: #EEEEEE;
+}
+
+/* BARRES DE PROGRESSION */
+.progress {
+
+  height: 10px;
+
+  background-color: rgba(255,255,255,0.1);
+
+  border-radius: 20px;
+}
+
+.progress-bar {
+  background-color: #2FA084;
+}
+
+/* PROJETS */
+.project-card {
+
+  overflow: hidden;
+
+  padding: 0;
+}
+
+.project-image {
+
+  width: 100%;
+
+  height: 200px;
+
+  object-fit: cover;
+}
+
+.project-content {
+  padding: 25px;
+}
+
+.project-content p {
+  color: #EEEEEE;
+}
+
+/* FOOTER */
+.footer {
+
+  border-top: 1px solid rgba(255,255,255,0.1);
+
+  color: #EEEEEE;
+
+  background-color: #185748;
+}
+
+/* ICONES FOOTER */
+.social-link {
+
+  display: inline-flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  width: 45px;
+
+  height: 45px;
+
+  margin-left: 10px;
+
+  border-radius: 50%;
+
+  background-color: rgba(238, 238, 238, 0.1);
+
+  color: #EEEEEE;
+
+  font-size: 1.2rem;
+
+  transition: 0.3s;
+}
+
+.social-link:hover {
+
+  background-color: #6FCF97;
+
+  color: #1F6F5F;
+
+  transform: translateY(-3px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+  .title {
+    font-size: 2.8rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .image {
+    max-width: 250px;
+  }
+
+}
+
